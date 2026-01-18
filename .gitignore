@@ -1,0 +1,10 @@
+﻿# DON'T PUSH: Dataset images (150MB)
+data/drone/images/train/*.jpg
+data/drone/images/val/*.jpg
+data/drone/images/test/*.jpg
+
+# DO PUSH: Everything else
+!data/drone/annotations/*.json
+!configs/**
+!tools/**
+!scripts/**
